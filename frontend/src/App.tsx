@@ -7,6 +7,7 @@ const CalculatorPaper = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(2),
   maxWidth: '300px',
   width: '100%',
+  backgroundColor: '#ffffff',
 }))
 
 const CalculatorButton = styled(Button)(({ theme }) => ({

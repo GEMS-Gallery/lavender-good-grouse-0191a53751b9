@@ -13,6 +13,7 @@ const CalculatorPaper = styled(Paper)(({ theme }) => ({
 const CalculatorButton = styled(Button)(({ theme }) => ({
   fontSize: '1.25rem',
   padding: theme.spacing(2),
+  fontFamily: '"Comic Sans MS", "Comic Sans", cursive, sans-serif',
 }))
 
 const App: React.FC = () => {
